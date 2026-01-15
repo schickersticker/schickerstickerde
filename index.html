@@ -1,0 +1,49 @@
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schicker Sticker</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .background {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        font-family: work sans, sans-serif;
+        margin: 0;
+      }
+
+      @media screen and (min-width: 600px) {
+        .title {
+          font-size: 3rem;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .title {
+          font-size: 4rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="background"
+      src="./assets/schickersticker-background.jpg"
+      alt="Schicke Sticker Motive"
+    />
+    <h1 class="title">Hier entsteht etwas</h1>
+    <script async src="https://sa.lesliebuettel.com/latest.js"></script>
+  </body>
+</html>
